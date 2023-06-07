@@ -1,1 +1,4 @@
 
+function txt(){
+  alert(text);
+}
