@@ -1,1 +1,6 @@
-
+#Conteiner{    
+transform: translateX(-50%);
+position: absolute;
+left: 50%;
+bottom: 0;
+}
