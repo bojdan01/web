@@ -1,3 +1,3 @@
 function Ai(){
- window.location.href = "/Ai/project_openai_codex-main/client/index.html";   
+ window.location.href = "/Ai/index.html";   
 }
