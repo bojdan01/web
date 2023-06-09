@@ -3,5 +3,13 @@ function Ai(){
 }
 setInterval(()=>{
     let cas = new Date()
-    document.querySelector(".hodiny").innerHTML = cas.getHours()+":"+cas.getMinutes()+":"+cas.getSeconds()
+    let min = cas.getMinutes()
+if (min < 10) {
+    min = "0"+min
+}
+let sec = cas.getSeconds()
+if (sec < 10) {
+    sec = "0"+sec
+}
+    document.querySelector(".hodiny").innerHTML = cas.getHours()+":"+min+":"+sec
 })
