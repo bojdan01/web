@@ -30,7 +30,6 @@ async function sendMessage() {
       displayMessage('AI', responseMessage);
       document.getElementById("user-message").value = "";
     }
-  } catch (error) {
-    console.log(error);
+  } catch () {
   }
 }
