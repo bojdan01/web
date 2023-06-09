@@ -7,7 +7,7 @@ async function sendMessage() {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer YOUR_API_KEY' // Nahraďte YOUR_API_KEY svým vlastním klíčem API
+        'Authorization': 'Bearer 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' // Nahraďte YOUR_API_KEY svým vlastním klíčem API
       },
       body: JSON.stringify({
         messages: [
