@@ -19,4 +19,12 @@ position: absolute;
     left: 50%;
     top: 100px;
 }
+.hodiny{
+position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 300px;
+    size: 100px;
+}
+
 
