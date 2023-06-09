@@ -31,6 +31,6 @@ async function sendMessage() {
       document.getElementById("user-message").value = "";
     }
   } catch (error) {
-    console.error(error);
+    console.log(error);
   }
 }
