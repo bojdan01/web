@@ -5,3 +5,15 @@ left: 50%;
 bottom: 0;
 color: blue
 }
+
+.Nadpis{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 10px;
+}
+
+.paragraf{
+transform
+}
+
