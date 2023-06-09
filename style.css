@@ -31,5 +31,6 @@ position: absolute;
 }
 body {
     background-color: gray;
+    font-family: system-ui;
 }
 
