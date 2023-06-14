@@ -13,3 +13,10 @@ if (sec < 10) {
 }
     document.querySelector(".hodiny").innerHTML = cas.getHours()+":"+min+":"+sec
 })
+document.addEventListener("visibilitychange", (event) => {
+  if (document.visibilityState == "visible") {
+    document.querySelector("title").innerHTML = "Bojdan.cz";
+  } else {
+    document.querySelector("title").innerHTML = "Come back";
+  }
+});
