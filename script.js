@@ -1,18 +1,19 @@
 function Ai(){
  window.location.href = "/Ai/index.html";   
 }
+
 setInterval(()=>{
-    let cas = new Date()
-    let min = cas.getMinutes()
-if (min < 10) {
-    min = "0"+min
+let x;
+const xhttp = new XMLHttpRequest();
+xhttp.onload = function() {
+x = this.responseText;
+x = JSON.parse(x);
+document.querySelector(".hodiny").innerHTML = x.datetime.slice(0,19).slice(11,19)
 }
-let sec = cas.getSeconds()
-if (sec < 10) {
-    sec = "0"+sec
-}
-    document.querySelector(".hodiny").innerHTML = cas.getHours()+":"+min+":"+sec
-})
+xhttp.open("GET", "https://worldtimeapi.org/api/timezone/Europe/Prague", true);
+xhttp.send();
+},100)
+
 document.addEventListener("visibilitychange", (event) => {
   if (document.visibilityState == "visible") {
     document.querySelector("title").innerHTML = "Bojdan.cz";
