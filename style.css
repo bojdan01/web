@@ -11,7 +11,7 @@ text-align: center;
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    bottom: 850px;
+    top: 0px;
     color: white;
     text-align: center;
 }
@@ -20,7 +20,7 @@ text-align: center;
 position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    bottom: 750px;
+    top: 50px;
     color: white;
     text-align: center;
 }
