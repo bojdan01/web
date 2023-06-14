@@ -2,40 +2,13 @@
 <html>
 <head>
   <title>YouTube MP3 Downloader</title>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $('#downloadButton').click(function() {
-        var videoUrl = $('#videoUrl').val();
-        var destination = $('#destination').val() || '.';
-        
-        $.ajax({
-          type: 'POST',
-          url: 'download.php',
-          data: { videoUrl: videoUrl, destination: destination },
-          success: function(response) {
-            if (response.status === 'success') {
-              alert(response.message + ' has been successfully downloaded.');
-            } else {
-              alert('An error occurred: ' + response.message);
-            }
-          },
-          error: function() {
-            alert('An error occurred during the request.');
-          }
-        });
-      });
-    });
-  </script>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
 </head>
 <body>
-  <h1>YouTube MP3 Downloader</h1>
-  <label for="videoUrl">Enter URL of YouTube video:</label>
-  <input type="text" id="videoUrl" />
-  <br />
-  <label for="destination">Enter the destination address (leave blank to save in current directory):</label>
-  <input type="text" id="destination" />
-  <br />
-  <button id="downloadButton">Download</button>
+  <py-script>
+    
+  </py-script>  
+
 </body>
 </html>
