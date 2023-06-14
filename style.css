@@ -4,30 +4,34 @@ position: absolute;
 left: 50%;
 bottom: 0;
 color: white;
+text-align: center;
 }
 
 .Nadpis{
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    top: 10px;
+    bottom: 850px;
     color: white;
+    text-align: center;
 }
 
 .paragraf{
 position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    top: 100px;
+    bottom: 750px;
     color: white;
+    text-align: center;
 }
 .hodiny{
 transform: translateX(-50%);
 position: absolute;
 left: 50%;
-top: 300px;
+bottom: 300px;
 font-size: 100px;
 color: white;
+text-align: center;
 }
 body {
     background-color: gray;
