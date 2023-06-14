@@ -16,9 +16,9 @@ if (sec < 10) {
 document.addEventListener("visibilitychange", (event) => {
   if (document.visibilityState == "visible") {
     document.querySelector("title").innerHTML = "Bojdan.cz";
-    document.querySelectorAll("link")[0].href = 'https://bojdan.cz/image/letter-b.ico'
+    document.querySelectorAll("link")[0].href = '/image/letter-b.ico'
   } else {
     document.querySelector("title").innerHTML = "Come back";
-    document.querySelectorAll("link")[0].href = 'https://bojdan.cz/image/smile.png'
+    document.querySelectorAll("link")[0].href = '/image/smile.png'
   }
 });
