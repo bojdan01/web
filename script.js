@@ -13,3 +13,12 @@ if (sec < 10) {
 }
     document.querySelector(".hodiny").innerHTML = cas.getHours()+":"+min+":"+sec
 })
+window.addEventListener('beforeunload', function(event) {
+    event.preventDefault();
+    event.returnValue = '';
+  
+    document.getElementById('Title').innerHTML = `
+      <Title>Come back</Title>
+      
+    `;
+  });
