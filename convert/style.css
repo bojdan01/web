@@ -10,6 +10,10 @@ font-family: arial;
   border: 2px solid #A30500;
   background: #EE3628;
   background: linear-gradient(to top, #EE3628, #CF776A);
+  position: absolute;
+    transform: translateX(-50%);
+    left: 55%;
+    bottom: 50%;
 }
 #input {
     position: relative;
