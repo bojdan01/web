@@ -35,6 +35,7 @@ position: relative;
     background-color: #555;
     transform: translateX(-50%);
     position: absolute;
+    transform: translateX(-50%) translateY(-50%);
     left: 50%;
-    bottom: 25%;
+    top: 50%;
 }
