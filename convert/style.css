@@ -27,3 +27,12 @@ font-family: arial;
     padding-left: 11px;
     font-family: arial;
 }
+.back{
+    height: 500px;
+    width: 700px;
+    background-color: #555;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    bottom: 25%;
+}
