@@ -82,7 +82,7 @@ border: 1px solid #FF0000;
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    top: 200;
+    top: 30%;
     font-family: auto;
     background: #CF0000;
     background: linear-gradient(to right, #CF0000 0%, #FFFFFF 100%);
