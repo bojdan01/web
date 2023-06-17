@@ -38,6 +38,8 @@ position: relative;
     transform: translateX(-50%) translateY(-50%);
     left: 50%;
     top: 50%;
+    border-radius: 34px; 
+border: 1px solid #FF0000;
 }
 
 .custom-loader {
