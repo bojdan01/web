@@ -10,16 +10,17 @@ let rep = setInterval(()=>{
         transform: translateX(-50%) translateY(-50%);
         left: 50%;
         top: 50%;
-         font-family: arial;
-  color: #14396A !important;
-  font-size: 14px;
-  text-shadow: 1px 1px 0px #7CACDE;
-  box-shadow: 1px 1px 1px #BEE2F9;
+  font-family: arial;
+  font-weight: bold;
+  color: #FFFFFF !important;
+  font-size: 16px;
+  text-shadow: 1px 1px 0px #FF0000;
+  box-shadow: 1px 1px 1px #FF0000;
   padding: 10px 25px;
   border-radius: 10px;
-  border: 2px solid #3866A3;
-  background: #63B8EE;
-  background: linear-gradient(to top, #63B8EE, #468CCF);
+  border: 2px solid #FF5252;
+  background: #EE0000;
+  background: linear-gradient(to top, #EE0000, #FF7A70);
         `
         document.querySelector(".tet").style.display = "none"
         clearInterval(rep)
