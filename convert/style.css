@@ -78,3 +78,14 @@ border: 1px solid #FF0000;
     left: 50%;
     top: 50%;
 }
+.Nadpis{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 200;
+    font-family: auto;
+    background: #CF0000;
+    background: linear-gradient(to right, #CF0000 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
