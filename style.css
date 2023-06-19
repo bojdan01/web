@@ -41,6 +41,9 @@ body {
     border-radius: 1vmin;
     transition: all 0.25s;
 }
+.hodiny {
+    color: rgb(193, 193, 193);
+}
 .obsah {
     position: absolute;
     margin-top: 2vmin;
