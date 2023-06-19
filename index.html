@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+        <title class="Title">Come back</title>
+    <link class="Title" rel="icon" type="image/x-icon" href="/image/smile.png">
 </head>
 <body>
     <iframe src="indexload.html"></iframe>
@@ -19,5 +19,16 @@
             width: 100%;
         }
     </style>
+    <script>
+        document.addEventListener("visibilitychange", (event) => {
+            if (document.visibilityState == "visible") {
+            document.querySelector("title").innerHTML = "Bojdan.cz";
+            document.querySelectorAll("link")[0].href = '/image/letter-b.ico'
+            } else {
+            document.querySelector("title").innerHTML = "Come back";
+            document.querySelectorAll("link")[0].href = '/image/smile.png'
+            }
+        });
+    </script>
 </body>
 </html>
