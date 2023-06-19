@@ -8,6 +8,11 @@ body {
 .hodiny {
 color: rgb(193, 193, 193);
 }
+@media only screen and (max-width: 548px) {
+    .startmenu p {
+        display: none;
+    }
+  }
 .startmenu {
         background-color: rgb(59, 59, 59);
         display: block;
@@ -124,4 +129,3 @@ h1 {
     top:90%;
     left:80%;
 }
-
