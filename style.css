@@ -124,37 +124,4 @@ h1 {
     top:90%;
     left:80%;
 }
-.convertmp3 {
-  font-family: arial;
-  color: #FF0000 !important;
-  font-size: 14px;
-  text-shadow: 1px 1px 0px #590000;
-  box-shadow: 1px 1px 1px #F9F9F9;
-  padding: 10px 25px;
-  border-radius: 10px;
-  border: 2px solid #A30000;
-  background: #EE0000;
-  background: linear-gradient(to top, #EE0000, #CF7E7E);
-}
-.convertmp3:hover {
-  color: #FF0000 !important;
-  background: #FF0000;
-  background: linear-gradient(to top, #FF0000, #EEC1C1);
-}
-.convertmp4 {
-  font-family: arial;
-  color: #FF0000 !important;
-  font-size: 14px;
-  text-shadow: 1px 1px 0px #590000;
-  box-shadow: 1px 1px 1px #F9F9F9;
-  padding: 10px 25px;
-  border-radius: 10px;
-  border: 2px solid #A30000;
-  background: #EE0000;
-  background: linear-gradient(to top, #EE0000, #CF7E7E);
-}
-.convertmp4:hover {
-  color: #FF0000 !important;
-  background: #FF0000;
-  background: linear-gradient(to top, #FF0000, #EEC1C1);
-}
+
