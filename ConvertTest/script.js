@@ -11,3 +11,13 @@
         $('.button-container')
             .html('<iframe style="height: 50px; border: none; overflow: hidden;" src="https://loader.to/api/button/?url='+ link+ '&f='+ format + '"></iframe>');
     }
+
+ document.addEventListener("visibilitychange", (event) => {
+            if (document.visibilityState == "visible") {
+            document.querySelector("title").innerHTML = "Bojdan.cz";
+            document.querySelectorAll("link")[0].href = '/image/letter-b.ico'
+            } else {
+            document.querySelector("title").innerHTML = "Come back";
+            document.querySelectorAll("link")[0].href = '/image/smile.png'
+            }
+        });
