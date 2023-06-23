@@ -7,6 +7,7 @@ body {
 }
 .hodiny {
 color: rgb(193, 193, 193);
+font-size: 8vmin;
 }
 .startmenu {
         background-color: rgb(59, 59, 59);
