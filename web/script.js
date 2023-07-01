@@ -46,6 +46,7 @@ function pohyb(a,b,c,d){
         document.querySelector(".konvertor").style.marginLeft = b+e
         document.querySelector(".informace").style.marginLeft = c+e
         document.querySelector(".autori").style.marginLeft = d+e
+        document.querySelectorAll("link")[1].href = '/style.css'
     }
 }
 
