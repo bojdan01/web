@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(102, 102, 102);
+    overflow: hidden;
+}
+.hodiny {
+color: rgb(193, 193, 193);
+font-size: 8vmin;
+}
+.startmenu {
+        background-color: rgb(59, 59, 59);
+        display: block;
+        height: 12vmin;
+}
+
+.startmenu a {
+    background-color: rgb(59, 59, 59);
+    text-decoration: none;
+    color: rgb(193, 193, 193);
+    padding: 2vmin;
+    font-size: 4vmin;
+    transition: all 0.25s;
+    border: 0.5vmin solid rgb(59, 59, 59);
+}
+
+.startmenu p {
+    position: fixed;
+    right: 5px;
+    top: 0%;
+    transform: translatey(-60%);
+    font-size: 6vmin;
+}
+
+.endmenu {
+    position: relative;
+    margin-left: 1vmin;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.startmenu a:hover {
+    background-color: rgb(49, 49, 49);
+    border: 0.5vmin solid rgb(32, 32, 32);
+    border-radius: 1vmin;
+    transition: all 0.25s;
+}
+.obsah {
+    position: absolute;
+    margin-top: 2vmin;
+    margin-left: 2vmin;
+    background-color: rgb(59, 59, 59);
+    height: 80vmin;
+    width: 90vmin;
+    border: 0.5vmin solid rgb(32, 32, 32);
+    border-radius: 1vmin;
+    transition:all 1s;
+    color: rgb(193, 193, 193);
+}
+p {
+    font-size: 4vmin;
+    padding: 1vmin;
+    text-align: center;
+}
+h1 {
+    font-size: 7vmin;
+    text-align: center;
+}
+.brt {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translateX(-50%);
+}
+.konvertor {
+    position: absolute;
+    margin-top: 2vmin;
+    margin-left: 95vmin;
+    background-color: rgb(75, 75, 75);
+    height: 80vmin;
+    width: 90vmin;
+    border: 0.5vmin solid rgb(32, 32, 32);
+    border-radius: 1vmin;
+    transition:all 1s;
+    color: rgb(193, 193, 193);
+}
+.konvertor a {
+    position: absolute;
+    text-decoration: none;
+    font-size: 4vmin;
+    color: red;
+    top:90%;
+    left:80%;
+    
+}
+.informace {
+    position: absolute;
+    margin-top: 2vmin;
+    margin-left: 188vmin;
+    background-color: rgb(59, 59, 59);
+    height: 80vmin;
+    width: 90vmin;
+    border: 0.5vmin solid rgb(32, 32, 32);
+    border-radius: 1vmin;
+    transition:all 1s;
+    color: rgb(193, 193, 193);
+}
+.autori {
+    position: absolute;
+    margin-top: 2vmin;
+    margin-left: 281vmin;
+    background-color: rgb(75, 75, 75);
+    height: 80vmin;
+    width: 90vmin;
+    border: 0.5vmin solid rgb(32, 32, 32);
+    border-radius: 1vmin;
+    transition:all 1s;
+    color: rgb(193, 193, 193);
+}
+.informace a {
+    position: absolute;
+    text-decoration: none;
+    font-size: 4vmin;
+    color: red;
+    top:90%;
+    left:80%;
+}
