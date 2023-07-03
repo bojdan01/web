@@ -39,15 +39,14 @@ function pohyb(a,b,c,d){
         document.querySelector(".konvertor").style.marginTop = b+e
         document.querySelector(".informace").style.marginTop = c+e
         document.querySelector(".autori").style.marginTop = d+e
-        document.querySelectorAll("link")[1].href = '/stylepc.css'
+        //document.querySelectorAll("link")[1].href = '/stylepc.css'
+        document.querySelector('link[href="style.css"]');
     }
     else{
         document.querySelector(".obsah").style.marginLeft = a+e
         document.querySelector(".konvertor").style.marginLeft = b+e
         document.querySelector(".informace").style.marginLeft = c+e
         document.querySelector(".autori").style.marginLeft = d+e
-        document.querySelectorAll("link")[1].href = '/style.css'
+        document.querySelector('link[href="stylepc.css"]');
     }
 }
-
-
