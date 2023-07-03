@@ -41,6 +41,10 @@ function pohyb(a,b,c,d){
         document.querySelector(".autori").style.marginTop = d+e
         //document.querySelectorAll("link")[1].href = '/stylepc.css'
         document.querySelector('link[href="style.css"]');
+        document.getElementsByClassName("obsah").style = "margin-top: 2vmin;"
+        document.getElementsByClassName("konvertor").style = "margin-top: 95vmin;"
+        document.getElementsByClassName("informace").style = "margin-top: 188vmin;"
+        document.getElementsByClassName("autori").style = "margin-top: 281vmin;"
     }
     else{
         document.querySelector(".obsah").style.marginLeft = a+e
@@ -48,5 +52,10 @@ function pohyb(a,b,c,d){
         document.querySelector(".informace").style.marginLeft = c+e
         document.querySelector(".autori").style.marginLeft = d+e
         document.querySelector('link[href="stylepc.css"]');
+        document.getElementsByClassName("obsah").style = "margin-left: 2vmin;"
+        document.getElementsByClassName("konvertor").style = "margin-left: 95vmin;"
+        document.getElementsByClassName("informace").style = "margin-left: 188vmin;"
+        document.getElementsByClassName("autori").style = "margin-left: 281vmin;"
     }
 }
+
