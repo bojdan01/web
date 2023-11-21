@@ -46,6 +46,7 @@ section{
     border: 2px solid #666;
     border-radius: 34px;
     border: 1px solid #FF0000;
+    top: 20%;
 }
 section h1{
     color: red;
