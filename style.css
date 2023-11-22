@@ -33,11 +33,18 @@ font-size: 8vmin;
     font-size: 6vmin;
 }
 
-.endmenu {
+.endmenuMax {
     position: relative;
     margin-left: 1vmin;
     top: 50%;
     transform: translateY(-50%);
+}
+.endmenuMin{
+    position: relative;
+    margin-left: 1vmin;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
 }
 .startmenu a:hover {
     background-color: rgb(49, 49, 49);
@@ -124,4 +131,62 @@ h1 {
     color: red;
     top:90%;
     left:80%;
+}
+
+@media only screen and (max-width: 850px) {
+    .endmenuMax {
+        position: relative;
+        margin-left: 1vmin;
+        top: 50%;
+        transform: translateY(-50%);
+        display: none;
+    }
+    .obsah{
+        margin-left: 2vmin;
+    }
+    .konvertor{
+        margin-left: 95vmin;
+    }
+    .informace{
+        margin-left: 188vmin;
+    }
+    .autori{
+        margin-left: 281vmin;
+    }
+}
+
+
+@media only screen and (max-width: 550px) {
+
+    .endmenuMin{
+        position: relative;
+        margin-left: 1vmin;
+        top: 50%;
+        transform: translateY(-50%);
+        display: block;
+    }
+    .endmenuMax {
+        position: relative;
+        margin-left: 1vmin;
+        top: 50%;
+        transform: translateY(-50%);
+        display: none;
+    }
+    .obsah{
+        margin-left: 2vmin;
+    }
+    .konvertor{
+        margin-top: 95vmin;
+        margin-left: 2vmin;
+    }
+    .informace{
+        margin-top: 188vmin;
+        margin-left: 2vmin;
+    }
+    .autori{
+        margin-top: 281vmin;
+        margin-left: 2vmin;
+    }
+    
+
 }

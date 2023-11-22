@@ -1,0 +1,23 @@
+@media only screen and (max-width: 850px) {
+
+    .endmenuMax{
+        position: relative;
+        margin-left: 1vmin;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media only screen and (max-width: 550px) {
+
+    .endmenuMin{
+        position: relative;
+        margin-left: 1vmin;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+
+
+
