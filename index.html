@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 <head>
     <meta charset="UTF-8">
-        <title class="Title">Come back</title>
-    <link class="Title" rel="icon" type="image/x-icon" href="/image/letter-b.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bojdan.cz</title>
+    <link rel="icon" type="image/x-icon" href="/image/letter-b.ico">
+    <meta name="description" content="Vítejte na webu Bojdan.cz - moderní konvertor a informace.">
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-CQYJ9Z35CG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-CQYJ9Z35CG');
-</script>
-</head>
-<body>
-    <iframe src="indexload.html"></iframe>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQYJ9Z35CG"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CQYJ9Z35CG');
+    </script>
     <style>
-        body {
-            padding: 0;
+        body, html {
             margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            background-color: #0c0a09;
         }
         iframe {
             position: absolute;
             border: 0;
             height: 100%;
             width: 100%;
+            color-scheme: dark;
         }
     </style>
+</head>
+<body>
+    <iframe src="indexload.html" title="Bojdan.cz Content"></iframe>
     <script>
-        document.addEventListener("visibilitychange", (event) => {
-            if (document.visibilityState == "visible") {
-            document.querySelector("title").innerHTML = "Bojdan.cz";
-            document.querySelectorAll("link")[0].href = '/image/letter-b.ico'
+        document.addEventListener("visibilitychange", () => {
+            if (document.visibilityState === "visible") {
+                document.title = "Bojdan.cz";
+                const link = document.querySelector("link[rel*='icon']");
+                if (link) link.href = '/image/letter-b.ico';
             } else {
-            document.querySelector("title").innerHTML = "Come back";
-            document.querySelectorAll("link")[0].href = '/image/smile.png'
+                document.title = "Vrať se k nám! 💜";
+                const link = document.querySelector("link[rel*='icon']");
+                if (link) link.href = '/image/smile.png';
             }
         });
     </script>
